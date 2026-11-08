@@ -1,0 +1,28 @@
+# macOS and Windows metadata
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+Desktop.ini
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local Helm dependency archives
+/helm/cp-helm-charts/charts/*.tgz
